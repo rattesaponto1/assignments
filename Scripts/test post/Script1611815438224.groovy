@@ -21,3 +21,5 @@ WS.sendRequest(findTestObject('Get'))
 
 WS.sendRequest(findTestObject('delete'))
 
+WS.verifyResponseStatusCode(response, 200)
+
